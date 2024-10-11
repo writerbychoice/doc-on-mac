@@ -1,0 +1,127 @@
+/* Global Styles */
+body {
+  background-color: white; /* White background */
+  color: black; /* Black text for all except headings and links */
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: blue; /* Blue for links */
+}
+
+img {
+  float: left;
+  margin-right: 20px;
+}
+
+/* TOC Styles */
+#toc {
+  background-color: #F0F0F0; /* Light grey for TOC for contrast */
+  color: navy; /* Navy blue for TOC text to match headings */
+  font-family: Arial, sans-serif; /* Match TOC font to the rest */
+  padding: 15px;
+  width: 10%; /* Reduce TOC width to half */
+  position: fixed; /* Fix the TOC to the left */
+  height: 100%; /* Extend TOC to full height */
+  overflow-y: auto; /* Enable scrolling for long TOC */
+  top: 0;
+  left: 0;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5); /* Add a shadow for depth */
+}
+
+#toc ul {
+  list-style-type: none; /* Remove bullets */
+  padding-left: 0;
+}
+
+#toc ul ul {
+  margin-left: 20px; /* Indent subheadings to show hierarchy */
+}
+
+#toc a {
+  color: navy; /* Navy blue for TOC links */
+  text-decoration: none;
+  display: block;
+  padding: 8px 0;
+}
+
+#toc a:hover {
+  text-decoration: underline;
+}
+
+/* Main Content Styles */
+#content {
+  margin-left: 12%; /* Adjust margin to leave space for the TOC */
+  padding: 20px;
+  background-color: white; /* White background for content area */
+  position: relative;
+  z-index: 1; /* Ensure content appears above TOC */
+}
+
+/* Headings - Reduced by 2 points */
+h1 {
+  font-size: 26px;
+  color: navy; /* Navy blue for the title */
+  margin-top: 30px;
+  position: relative;
+  z-index: 1; /* Make sure the title is above the TOC */
+  padding-left: 12%; /* Ensure the title aligns with the content area */
+}
+
+h2 {
+  font-size: 24px;
+  color: navy; /* Navy blue for headings */
+  margin-top: 25px;
+}
+
+h3 {
+  font-size: 22px;
+  color: navy;
+  margin-top: 20px;
+}
+
+h4 {
+  font-size: 20px;
+  color: navy;
+  margin-top: 15px;
+}
+
+h5, h6 {
+  font-size: 18px;
+  color: black; /* Black for lower-level headings */
+  margin-top: 10px;
+}
+
+/* Code Block Styles */
+pre {
+    border: 1px solid #ccc; /* Add a light grey border */
+    background-color: #f9f9f9; /* Light background for the code block */
+    padding: 10px; /* Add some padding around the text */
+    overflow-x: auto; /* Allow horizontal scrolling for long lines */
+    font-family: monospace; /* Use a monospace font for code */
+}
+
+code {
+    font-family: monospace; /* Use a monospace font for inline code */
+    color: #d14; /* Change the color of inline code for emphasis */
+}
+
+/* Remove TOC Title */
+#toc > :first-child {
+  display: none; /* Hides any "Table of Contents" label */
+}
+
+/* Responsive Design */
+@media (max-width: 800px) {
+  #toc {
+      position: relative;
+      width: 100%;
+      height: auto;
+  }
+
+  #content {
+      margin-left: 0;
+  }
+}
