@@ -3,7 +3,7 @@ Saurabh Dhasmana
 :doctype: book
 :toc: left
 :toclevels: 4s
-:stylesheet: /styles/custom.css
+:stylesheet: /Users/saurabh/Documents/new-github-repo/doc-on-mac/styles/custom.css.css
 
 include::/Users/saurabh/Documents/new-github-repo/doc-on-mac/preface/preface.adoc[]
 include::/Users/saurabh/Documents/new-github-repo/doc-on-mac/chapters/chapter1/index-c1.adoc[]
