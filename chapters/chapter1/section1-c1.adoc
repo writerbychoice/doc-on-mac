@@ -1,0 +1,11 @@
+== Homebrew
+Homebrew is a package manager that simplifies the installation of software on macOS.
+
+*Procedure*:
+1. Open the Terminal application.
+2. Run the following command:
+
+[.source, css]
+----
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+----

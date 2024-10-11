@@ -1,0 +1,7 @@
+= System Requirements
+Before starting, ensure you have the following installed:
+
+- macOS: The operating system on which the setup will be performed.
+- Homebrew: A package manager for macOS.
+- Visual Studio Code: A code editor that will be used for editing AsciiDoc files.
+- Asciidoctor Plugin for VS Code: For processing AsciiDoc files without the need for a separate Ruby installation.

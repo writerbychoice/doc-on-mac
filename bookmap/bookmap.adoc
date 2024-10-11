@@ -1,0 +1,17 @@
+= Open-Source Documentation Setup on macOS®
+Saurabh Dhasmana
+:doctype: book
+:toc: left
+:toclevels: 4s
+:stylesheet: /styles/custom.css
+
+include::/Users/saurabh/Documents/new-github-repo/doc-on-mac/preface/preface.adoc[]
+include::/Users/saurabh/Documents/new-github-repo/doc-on-mac/chapters/chapter1/index-c1.adoc[]
+include::/Users/saurabh/Documents/new-github-repo/doc-on-mac/chapters/chapter1a/index-c1a.adoc[]
+include::/Users/saurabh/Documents/new-github-repo/doc-on-mac/chapters/chapter2/index-c2.adoc[]
+include::/Users/saurabh/Documents/new-github-repo/doc-on-mac/chapters/chapter3/index-c3.adoc[]
+
+== Appendices
+include::/Users/saurabh/Documents/new-github-repo/doc-on-mac/appendices/appendixA.adoc[]
+include::/Users/saurabh/Documents/new-github-repo/doc-on-mac/appendices/appendixB.adoc[]
+include::/Users/saurabh/Documents/new-github-repo/doc-on-mac/appendices/appendixC.adoc[]

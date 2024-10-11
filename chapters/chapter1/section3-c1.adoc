@@ -1,0 +1,13 @@
+== Visual Studio Code
+If you haven't installed Visual Studio Code yet, do so by following these steps:
+
+1. Go to the link:https://code.visualstudio.com/[Visual Studio Code website].
+2. Download the installer for macOS and follow the onscreen installation instructions.
+
+== Install Asciidoctor Plugin in VS Code
+The Asciidoctor plugin will allow you to edit and preview AsciiDoc files directly in Visual Studio Code.
+
+*Procedure*:
+1. Open Visual Studio Code.
+2. Go to the Extensions view by clicking on the Extensions icon in the Activity Bar or pressing `Cmd+Shift+X`.
+3. Search for "Asciidoctor" and install the official Asciidoctor plugin.

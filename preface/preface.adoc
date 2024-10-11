@@ -1,0 +1,4 @@
+[id=preface.adoc]
+= Overview
+
+This document provides a step-by-step guide for setting up a complete open-source documentation environment on a Mac. It consolidates fragmented information found online into an accurate, unified procedure for easy implementation.

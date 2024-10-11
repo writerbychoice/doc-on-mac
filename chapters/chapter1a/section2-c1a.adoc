@@ -1,0 +1,9 @@
+== Git
+Git is essential for version control.
+
+*Procedure*:
+1. In the Terminal, run:
+[.source, css]
+----
+brew install git
+----

@@ -1,0 +1,14 @@
+= Creating Your Documentation Project
+
+== Setting Up Your Project Directory
+=== Procedure:
+1. Open the Terminal.
+2. Navigate to your desired location and create a new directory:
+[.source, css]
+----
+mkdir my-docs
+cd my-docs
+----
+include::/Users/saurabh/Documents/new-github-repo/doc-on-mac/chapters/chapter2/section1-c2.adoc[]
+include::/Users/saurabh/Documents/new-github-repo/doc-on-mac/chapters/chapter2/section2-c2.adoc[]
+include::/Users/saurabh/Documents/new-github-repo/doc-on-mac/chapters/chapter2/section3-c2.adoc[]

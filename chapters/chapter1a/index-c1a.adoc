@@ -1,0 +1,5 @@
+= Install Required Software
+
+include::/Users/saurabh/Documents/new-github-repo/doc-on-mac/chapters/chapter1a/section1-c1a.adoc[]
+include::/Users/saurabh/Documents/new-github-repo/doc-on-mac/chapters/chapter1a/section2-c1a.adoc[]
+include::/Users/saurabh/Documents/new-github-repo/doc-on-mac/chapters/chapter1a/section3-c1a.adoc[]
